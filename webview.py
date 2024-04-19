@@ -156,7 +156,17 @@ class WebView(ModalView):
         context =  PythonActivity.mActivity.getApplicationContext()
         directory = context.getExternalFilesDir(dir_type)
         return str(directory.getPath())
-
+        
+    @run_on_ui_thread
+    def evaluate_js(self, js_code):
+        if self.webview:
+            self.webview.evaluateJavascript(js_code, None)
+    """
+    #Run this where the webview is instatiated.
+    webview = WebView(url='https://www.example.com')
+    webview.open()
+    webview.evaluate_js("document.getElementById('myElement').innerHTML = 'Hello, world!'")
+    """
     def _back_pressed(self):
         if self.webview.canGoBack():
             self.webview.goBack()
