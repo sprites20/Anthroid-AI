@@ -1,4 +1,7 @@
 # Anthroid-AI
+I congratulate the winners in advance, but I wasn't fast enough to implement things on time.
+
+Run somecbox2.py for the UI. Most of the things are just terminal functions.
 
 Doing webscraping without a browser with cookies, such as bs4 result in errors in most sites.
 
