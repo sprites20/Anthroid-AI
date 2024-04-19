@@ -14,5 +14,5 @@ https://kivy.org/doc/stable/guide/packaging-android.html
 This project was built using Python 3.9.7.
 https://www.python.org/downloads/
 
-Will soon have Meta Graph API for real-time updates, not only from websites, but from any user.
+Will soon have Meta Graph API for real-time news and updates from Facebook to extend beyond search engines, not only from websites, but from any user.
 https://developers.facebook.com/tools/explorer/
