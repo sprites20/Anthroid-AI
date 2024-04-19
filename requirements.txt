@@ -1,0 +1,11 @@
+beautifulsoup4==4.12.3
+googlesearch_python==1.2.3
+jnius==1.1.0
+kivy==2.3.0
+Kivy_examples==2.2.1
+kivymd==1.1.1
+openai==1.23.1
+protobuf==5.26.1
+pyjnius==1.6.1
+requests==2.31.0
+unstructured==0.13.2
